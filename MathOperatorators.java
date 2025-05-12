@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class MathOperatorators {
 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         int money = 100100;
         money = money + 1000;
