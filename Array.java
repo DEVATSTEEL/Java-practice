@@ -1,5 +1,5 @@
 public class Array {
-    /*
+    /* Directly declaring array
      * Array in java
      * public static void main(String\[] args) {
      *
@@ -8,6 +8,7 @@ public class Array {
      * System.out.println(cars\[1]);
      * }
      */
+    //Declaring array with set limit 
     public static void main(String[] args) {
         String[] Gun = new String[3];
         Gun[0] = "Assault";
