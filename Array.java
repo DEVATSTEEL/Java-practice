@@ -8,14 +8,14 @@ public class Array {
      * System.out.println(cars\[1]);
      * }
      */
-    //Declaring array with set limit 
+    //Declaring array with set limit
     public static void main(String[] args) {
         String[] Gun = new String[3];
         Gun[0] = "Assault";
         Gun[1] = "Shotgun";
         Gun[2] = "Sniper";
-        for (int i = 0; i < Gun.length; i++) {
-            System.out.println(Gun[i]);
-        }
+     for (String Gun1 : Gun) {
+         System.out.println(Gun1);
+     }
     }
 }
