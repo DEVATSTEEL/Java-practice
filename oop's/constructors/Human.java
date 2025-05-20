@@ -1,6 +1,8 @@
 public class Human {
  String name;
+ @SuppressWarnings("unused")
  int age;
+ @SuppressWarnings("unused")
  double weight;
 
  Human(String name , int age, double weight){

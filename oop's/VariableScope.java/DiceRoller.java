@@ -5,6 +5,7 @@ public class DiceRoller {
     Random random;
     int number;
 
+    @SuppressWarnings("OverridableMethodCallInConstructor")
     DiceRoller() {
 
         random = new Random();
