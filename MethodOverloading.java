@@ -7,7 +7,7 @@ public class MethodOverloading {
         int x = add(1, 2, 3, 4);
         System.out.println(x);
 
-        double y = add(1.1, 2.1, 3.1 , 4.1);
+        double y = add(1.1, 2.1, 3.1, 4.1);
 
         System.out.println(y);
 
