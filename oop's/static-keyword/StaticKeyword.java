@@ -11,7 +11,7 @@ public class StaticKeyword {
         System.out.println(friend2.name);
         System.out.println(friend3.name);
     
-        Friend.displayFriends();;
+        Friend.displayFriends();
 
     }
 }
