@@ -7,6 +7,7 @@ public class Allcars {
    public Allcars() {
    }
 
+   @SuppressWarnings("override")
    public String toString() {
       return this.maker + "\n" + this.model + "\n" + this.color + "\n" + this.year;
    }
