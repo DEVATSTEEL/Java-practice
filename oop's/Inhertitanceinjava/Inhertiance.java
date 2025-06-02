@@ -2,7 +2,7 @@ public class Inhertiance {
     
     public static void main(String[] args) {
         
-        Cars cars = new Cars();
+        DrivingCars cars = new DrivingCars();
         cars.go();
 
         Bycycle bike = new Bycycle();

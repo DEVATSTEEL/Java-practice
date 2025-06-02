@@ -1,4 +1,4 @@
-public class Cars extends Vehicle {
+public class DrivingCars extends Vehicle {
 
     @SuppressWarnings("unused")
     int wheels = 4 ;
