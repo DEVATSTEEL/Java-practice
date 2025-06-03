@@ -1,3 +1,5 @@
+package oops.variablescope;
+
 import java.util.Random;
 
 public class DiceRoller {

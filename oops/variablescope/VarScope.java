@@ -1,3 +1,7 @@
+package oops.variablescope;
+
+public class VarScope {
+
 public class VariableScope {
     public static void main(String[] args) {
         
@@ -5,4 +9,5 @@ public class VariableScope {
         DiceRoller diceRoller = new DiceRoller();
         
     }
+}
 }
