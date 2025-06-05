@@ -5,6 +5,7 @@ public class DupCars {
     private int year;
 
 
+    @SuppressWarnings("OverridableMethodCallInConstructor")
     DupCars(String maker, String model, int year) {
         this.setMaker(maker);
         this.setModel(model);
@@ -12,6 +13,7 @@ public class DupCars {
     }
 
     // Copy constructor
+    @SuppressWarnings("OverridableMethodCallInConstructor")
     DupCars(DupCars x) {
         this.copy(x);
     }
